@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <h1>My Portfolio</h1>
+    <select name="coins" id="coins">
+      <option value="bitcoin">Bitcoin</option>
+      <option value="ethereum">Ethereum</option>
+      <option value="shiba-inu">Shiba Inu</option>
+      <option value="cardano">Cardano</option>
+      <option value="solana">Solana</option>
+    </select>
+    <input
+      type="number"
+      id="amount"
+      name="amount"
+      placeholder="Insert amount"
+    />
+    <button onclick="{addCoin()}">Add</button>
+    <ul id="portfolio"></ul>
+    <script src="Portfolio.js"></script>
+  </body>
+</html>

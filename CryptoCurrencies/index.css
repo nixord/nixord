@@ -1,0 +1,25 @@
+.coin {
+  display: flex;
+}
+.cell {
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  padding: 10px;
+  line-height: 40px;
+}
+.table-header {
+  font-weight: bold;
+}
+.price {
+  text-align: right;
+}
+#coins-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+}
+#coins {
+  padding: 20px;
+}
