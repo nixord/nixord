@@ -5,12 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="global.css" />
     <title>MemeCoins</title>
   </head>
-  <body>
+  <body class="Roboto">
+    <div class="global-container"></div>
+    <nav class="nav-container">
+      <a href="index.html">CryptOccurencies</a
+      ><a href="Portfolio.html">Portfolio</a
+      ><a href="Form.html">Buy Cryptos!</a>
+    </nav>
     <div id="coins-container">
       <div id="coins">
         <div class="coin">
+          <div class="cell" style="width: 32px"></div>
           <div class="cell table-header">Name</div>
           <div class="cell price table-header">Price</div>
         </div>
@@ -21,7 +35,7 @@
         <div id="solana" class="coin"></div>
       </div>
     </div>
-
-    <script src="./Memecoins.js"></script>
+    <script src="global.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>

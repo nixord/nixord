@@ -20,10 +20,14 @@ function handleCoins(text) {
   const json = JSON.parse(text);
   for (const p in json) {
     document.getElementById(p).innerHTML =
+      "<div class='cell' style='width:32px;'> <img class='coin-icon' src='./images/" +
+      p +
+      ".png'" +
+      "/> </div>" +
       "<div class='cell'>" +
       coinNames[p] +
       "</div>" +
-      "<div class='cell price'>" +
+      "<div class='cell price'>$" +
       json[p].usd +
       "</div>";
   }

@@ -4,7 +4,7 @@
 .cell {
   width: 100px;
   height: 40px;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   padding: 10px;
   line-height: 40px;
 }
@@ -22,4 +22,9 @@
 }
 #coins {
   padding: 20px;
+}
+.coin-icon {
+  margin-top: 5px;
+  width: 32px;
+  height: 32px;
 }

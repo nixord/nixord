@@ -1,0 +1,44 @@
+.content {
+  margin: auto;
+  padding-top: 5%;
+  width: 50%;
+  text-align: center;
+}
+.sub-content {
+  padding-top: 3%;
+}
+.inputbox {
+  height: 40px;
+  font-size: 30px;
+}
+.title {
+  font-size: 50px;
+  color: rgb(78, 78, 255);
+}
+.dropdown {
+  width: 150px;
+  height: 46px;
+  font-size: 24px;
+  text-align: center;
+}
+.coin-image {
+  width: 5px;
+  height: 5px;
+}
+.add-button {
+  height: 46px;
+  width: 80px;
+  font-size: 24px;
+}
+.coin-adder {
+  display: flex;
+  justify-content: center;
+}
+
+.coin-adder * {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+#total {
+  font-size: 40px;
+}
