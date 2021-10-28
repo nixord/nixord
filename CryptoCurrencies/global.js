@@ -39,15 +39,15 @@ function handleCoins(text) {
       arrangedGlobal.cryptocurrencies +
       " Exchanges: " +
       arrangedGlobal.exchanges +
-      " Market Cap: " +
+      " Market Cap: $" +
       arrangedGlobal.totalMarketCap +
-      " 24hs Vol: " +
+      " 24hs Vol: $" +
       arrangedGlobal.dailyVol +
       " Dominance: BTC: " +
       arrangedGlobal.dominance.bitcoin +
-      " ETH: " +
+      "% ETH: " +
       arrangedGlobal.dominance.ethereum +
-      "</div>";
+      "%</div>";
     document.getElementsByClassName("global-container")[i].className =
       "global-container global";
   }
