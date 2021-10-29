@@ -21,6 +21,92 @@
       ><a href="Portfolio.html">Portfolio</a
       ><a href="Form.html">Buy Cryptos!</a>
     </nav>
+    <div class="form-container">
+      <h1 class="title-buy">CRYPTO BUYING</h1>
+      <div style="text-align: center">
+        <div style="display: inline">
+          <input
+            type="radio"
+            name="payment-option"
+            id="credit-card-button"
+            checked
+            onclick="{showCCardForm()}"
+          />
+          <label for="credit-card">Credit card</label>
+        </div>
+
+        <div style="display: inline">
+          <input
+            type="radio"
+            name="payment-option"
+            id="paypal-button"
+            onclick="{showPaypalForm()}"
+          />
+          <label for="paypal">Paypal</label>
+        </div>
+      </div>
+      <div>
+        <div style="margin-left: 150px">
+          <div id="credit-card">
+            <div class="input-line">
+              <label for="card-name">Name on Card</label>
+              <input type="text" name="card-name" id="card-name" />
+              <label class="error-text-hidden" id="error-name"
+                >Name is invalid!</label
+              >
+            </div>
+            <div class="input-line">
+              <label for="card-number">Credit card number</label>
+              <input type="text" name="card-number" id="card-number" />
+              <label class="error-text-hidden" id="error-number"
+                >Number is invalid!</label
+              >
+            </div>
+            <div class="input-line">
+              <label for="expiration">Expiration</label>
+              <input
+                type="text"
+                name="expiration"
+                id="month"
+                placeholder="MM"
+              />
+              <input
+                type="text"
+                name="expiration"
+                id="year"
+                placeholder="YYYY"
+              />
+              <label class="error-text-hidden" id="error-date"
+                >Date is invalid!</label
+              >
+            </div>
+            <div class="input-line">
+              <label for="cvv">CVV</label>
+              <input type="text" name="cvv" id="cvv" />
+              <label class="error-text-hidden" id="error-cvv"
+                >CVV is invalid!</label
+              >
+            </div>
+          </div>
+          <div id="paypal" class="input-line">
+            <label for="email">Paypal Email</label>
+            <input type="text" name="email" id="email" />
+            <label class="error-text-hidden" id="error-email"
+              >Email is invalid!</label
+            >
+          </div>
+        </div>
+        <div id="submit">
+          <input
+            type="submit"
+            value="Submit"
+            id="sub-btn"
+            onclick="{verifyForm()}"
+          />
+        </div>
+      </div>
+    </div>
     <script src="global.js"></script>
+    <script src="Form.js"></script>
   </body>
 </html>

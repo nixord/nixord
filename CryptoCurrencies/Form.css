@@ -1,0 +1,36 @@
+.form-container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.error-text {
+  color: red;
+  display: inline;
+}
+.error-text-hidden {
+  display: none;
+}
+.title-buy {
+  text-align: center;
+}
+#month {
+  width: 32px;
+}
+#year {
+  width: 56px;
+}
+#cvv {
+  width: 32px;
+}
+#submit {
+  text-align: center;
+}
+#sub-btn {
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+}
+.input-line {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
